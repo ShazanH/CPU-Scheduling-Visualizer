@@ -1,0 +1,76 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  backdrop-filter: brightness(0.5);
+}
+
+.h2span {
+  font-size: medium;
+  color: rgba(245, 245, 245, 0.766);
+  margin: 4px;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 50px;
+  position: absolute;
+  border: 1px solid rgba(12, 27, 40, 0.7);
+  background-color: rgba(12, 27, 40, 0.6);
+  border-radius: 12px;
+  box-shadow: 0px 4px 30px rgba(200, 200, 200, 0.2);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.selectInput, .input {
+  width: 220px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: border-color 0.3s ease;
+}
+
+.selectInput:hover, .input:hover {
+  border-color: rgba(255, 255, 255, 0.9);
+}
+
+.selectInputOption {
+  background-color: rgba(12, 27, 40, 0.8);
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border-radius: 10px;
+  padding: 12px 40px;
+  margin: 16px auto;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.buttonn {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border-radius: 8px;
+  width: fit-content;
+  padding: 10px 35px;
+  margin: 16px auto;
+}
+ 
+
+
+
+
